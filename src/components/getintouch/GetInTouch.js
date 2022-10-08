@@ -7,7 +7,7 @@ import Typewriter from "typewriter-effect";
 
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
-
+import Chat from "../../images/chat.png";
 import { Helmet } from "react-helmet";
 
 const Contact = () => {
@@ -152,7 +152,7 @@ const Contact = () => {
                     <Fade left>
                       <img
                         className="img-fluid contact_img"
-                        src="https://i.ibb.co/d66qDG9/Get-In-Touch.png"
+                        src={Chat}
                         alt="Animation_Image"
                       />
                     </Fade>

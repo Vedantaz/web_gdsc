@@ -12,7 +12,7 @@ import Card from "./Card";
 
 import Home_Svg from "../../images/home/Home.gif";
 
-import Bubbles from "../bubbles/Bubbles";
+// import Bubbles from "../bubbles/Bubbles";
 
 import Fade from "react-reveal/Fade";
 
@@ -158,6 +158,7 @@ const Home = () => {
               <div className="text-center">
                 <h2 className="animate-character">
                   Google Developer Student Clubs
+
                 </h2>
               </div>
             </div>
@@ -168,7 +169,7 @@ const Home = () => {
               enhance your technical skills through our free hands-on workshops,
               study-jams and project building activities. We work together as a
               team to build inspiring solutions to solve real-world problems.
-              Not only this, top performers also get a chance to win schwags and
+              Not only this, top performers also get a chance to win swags and
               goodies! Join us and let’s begin this journey of learning and
               growing together as a community!
             </p>
@@ -179,7 +180,7 @@ const Home = () => {
                     rel="noreferrer"
                     target="_blank"
                     className="other-btns-link"
-                    href="https://gdsc.community.dev/aissms-institute-of-information-technology-pune/"
+                    href="https://gdsc.community.dev/pimpri-chinchwad-college-of-engineering-and-research-pune/"
                   >
                     Be a Member
                   </a>
@@ -289,16 +290,17 @@ const Home = () => {
                 </span>
               </div>
             </Fade>
-          </div>
-
-          <div className="row stacks pl-lg-5 pr-lg-5 ml-lg-5 mr-lg-5">
             <Fade up>
               <div className="col-lg-4 col-sm-12 stack-name">
-                <span className="-button ai-domain">
-                  Artificial Intelligence
+                <span className="-button android-domain">
+                  Flutter Development
                 </span>
               </div>
             </Fade>
+          </div>
+
+          <div className="row stacks pl-lg-5 pr-lg-5 ml-lg-5 mr-lg-5">
+
             <Fade up>
               <div className="col-lg-4 col-sm-12 stack-name">
                 <span className="-button cloud-domain">Cloud Computing</span>
@@ -306,7 +308,7 @@ const Home = () => {
             </Fade>
             <Fade up>
               <div className="col-lg-4 col-sm-12 stack-name">
-                <span className="-button dsacp-domain">DSA / CP</span>
+                <span className="-button dsacp-domain">Comp. P </span>
               </div>
             </Fade>
           </div>
@@ -325,11 +327,11 @@ const Home = () => {
                 <div id="gdsc_lead" className="row">
                   <div className="col-lg-12 col-sm-12 member-body">
                     <img
-                      src="https://i.ibb.co/QbYjh69/Prarthana-Chandak.jpg"
+                      src="https://i.ibb.co/4NGzdJx/Abhay-Rajput.jpg"
                       className="img-fluid lead-img"
                       alt="Lead_Image"
                     />
-                    <h5>Prarthana Chandak</h5>
+                    <h5> Abhay Rajput </h5>
                     <span></span>
                     <div className="social-ico m-0">
                       <a
@@ -394,7 +396,7 @@ const Home = () => {
                   </h1>
 
                   <p className="home_text pr-lg-5">
-                    GDSC community thrives to spread awareness about technolgies
+                    GDSC community thrives to spread awareness about technologies
                     and engage students in multiple events so that they grow as
                     a developer and meet like minded people.
                   </p>
@@ -472,7 +474,7 @@ const Home = () => {
 
         <Fade up>
           <div className="container d-flex align-items-center justify-content-center mt-lg-3 mt-5">
-            <div className="all-divs mt-lg-0 mt-2">
+            {/* <div className="all-divs mt-lg-0 mt-2">
               <Fade up>
                 <h1 className="text-center about-home-headings home-headings mt-5">
                   We Value Our Sponsors
@@ -517,7 +519,7 @@ const Home = () => {
                   </div>
                 </Fade>
               </div>
-            </div>
+            </div> */}
           </div>
         </Fade>
 
@@ -527,7 +529,7 @@ const Home = () => {
               <div className="row mt-lg-5">
                 <Fade left>
                   <div className="offset-lg-2 col-lg-8">
-                    <div className="text-center">
+                    {/* <div className="text-center">
                       <img
                         className="sponser-img"
                         src="https://i.ibb.co/PCxqPXJ/binance-academy4820.jpg"
@@ -537,7 +539,7 @@ const Home = () => {
                       <p className="tech-mahindra pt-0">
                         Your one-stop guide to all things crypto. Whether you're a rookie trying to understand mining or a veteran looking to develop a trading strategy, we've got you covered.
                       </p>
-                    </div>
+                    </div> */}
                   </div>
                 </Fade>
               </div>
@@ -564,15 +566,14 @@ const Home = () => {
                   <div>
                     <h1 className="text-center home-headings">Stay Updated</h1>
                     <p className="px-lg-5 home_text">
-                      Don’t miss out on the exciting happenings at GDSC, AISSMS
-                      IOIT. Become a member now and get updates about our latest
+                      Don’t miss out on the exciting happenings at GDSC,PCCOER. Become a member now, get updates about latest
                       workshops and events!
                     </p>
                     <div className="btn-section mb-0">
                       <a
                         rel="noreferrer"
                         target="_blank"
-                        href="https://gdsc.community.dev/aissms-institute-of-information-technology-pune/"
+                        href="https://gdsc.community.dev/pimpri-chinchwad-college-of-engineering-and-research-pune/"
                       >
                         <button className="other-btns">Be a Member</button>
                       </a>
@@ -585,7 +586,7 @@ const Home = () => {
         </div>
       </div>
 
-      <Bubbles />
+      {/* <Bubbles /> */}
     </div>
   );
 };

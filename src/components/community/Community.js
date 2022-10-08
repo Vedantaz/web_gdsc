@@ -105,7 +105,7 @@ const Community = () => {
                     alt="Logo"
                   />
                   <p className="card-text pt-2 text-center">
-                    We at GDSC, AISSMS Institute of Information Technology are
+                    We at GDSC, Pimpri Chinchwad College of Engineering, Ravet are
                     ambitious towards building a community that aims to change
                     the world with technology. We do this by organizing
                     insightful events, hands-on workshops, interactive sessions,

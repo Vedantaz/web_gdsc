@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import MenuOpenIcon from "@material-ui/icons/MenuOpen";
 import "./Navbar.css";
 
-import Gdsc_Logo from "../../images/gdsc_logo.png";
+import Gdsc_Logo_Pccoer from "../../images/gdsc_logo_pccoer.png";
 
 import { scrollToTop } from "../footer/ScrollToTop";
 
@@ -61,10 +61,8 @@ const Navbar = () => {
 
   const media = window.matchMedia("(max-width: 800px)");
   media.addEventListener("change", responsive);
-
   const NavDisplay = (event) => {
     scrollToTop();
-
     const actives = document.getElementsByClassName("active");
     Array.from(actives).forEach((active) => {
       if (event.target === active) {
@@ -95,9 +93,10 @@ const Navbar = () => {
                   <NavLink to="/">
                     <img
                       className="logo img-fluid"
-                      src={Gdsc_Logo}
+                      src={Gdsc_Logo_Pccoer}
                       alt="Gdsc Logo"
                     />
+                    {/* <p>Pimpri Chinchwad College of Engineering and research, Ravet, Pune</p> */}
                   </NavLink>
                   <MenuOpenIcon
                     onClick={toggle}

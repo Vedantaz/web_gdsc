@@ -5,6 +5,20 @@ import "./Team.css";
 
 import Team_Svg from "../../images/team/Team.gif";
 import Gdsc_All from "../../images/gdsc-all.png";
+import Abhay from "../../images/team/Abhay Rajput.jpg"
+import Rajat from "../../images/team/Rajat_Deore.jpg"
+import Mukesh from "../../images/team/Mukesh Tandale.jpg"
+import Vedant from "../../images/team/Vedant Mule.jpg"
+import Gawade from "../../images/team/Abhishek Gawade.jpg"
+import Sahil from "../../images/team/Sahil shahane.jpg"
+import Pritam from "../../images/team/Pritam Patil.jpg"
+import Manvi from "../../images/team/Manvi Gawande.jpg"
+import Jay from "../../images/team/Jay Firke.jpg"
+import Neeraj from "../../images/team/Neeraj Kulkarni.jpg"
+import Dhiraj from "../../images/team/Dhiraj Patil.jpg"
+import Jadhav from "../../images/team/Abhishek Jadhav.jpg"
+import Preeti from "../../images/team/Preeti Hankare.jpg"
+import Aditi from "../../images/team/Aditi Hambarde.jpg"
 
 import Slider from "react-slick";
 
@@ -62,17 +76,17 @@ const Team = () => {
   const [teams, setTeams] = useState(
     window.screen.width < 800
       ? {
-          web: <Slider {...settings}>{WebTeam}</Slider>,
-          ml: <Slider {...settings}>{MLTeam}</Slider>,
-          android: <Slider {...settings}>{AndroidTeam}</Slider>,
-          management: <Slider {...settings}>{ManagementTeam}</Slider>,
-        }
+        web: <Slider {...settings}>{WebTeam}</Slider>,
+        ml: <Slider {...settings}>{MLTeam}</Slider>,
+        android: <Slider {...settings}>{AndroidTeam}</Slider>,
+        management: <Slider {...settings}>{ManagementTeam}</Slider>,
+      }
       : {
-          web: WebTeam,
-          ml: MLTeam,
-          android: AndroidTeam,
-          management: ManagementTeam,
-        }
+        web: WebTeam,
+        ml: MLTeam,
+        android: AndroidTeam,
+        management: ManagementTeam,
+      }
   );
 
   const responsive = (media) => {
@@ -168,14 +182,15 @@ const Team = () => {
                   data-tooltip="Hi! I'm Prarthana. I love to sleep but coding is my coffee ;) I enjoy problem solving and competitive coding. I'm currently learning Node.js and I'm loving it. Can't wait to meet you guys in a GDSC offline event!"
                 >
                   <img
-                    src="https://i.ibb.co/QbYjh69/Prarthana-Chandak.jpg"
+                    src=
+                    {Abhay}
                     className="img-fluid lead-img"
                     alt="Lead_Image"
                   />
                 </span>
               </div>
 
-              <h5 className="mt-4">Prarthana Chandak</h5>
+              <h5 className="mt-4">Abhay Rajput</h5>
 
               <span></span>
               <div className="social-ico">
@@ -251,9 +266,330 @@ const Team = () => {
           <Fade up>
             <h3 className="mt-5 mb-4 font-weight-bold">Web Team</h3>
           </Fade>
-          {teams.web}
-        </div>
+          <div className="col-lg-6 col-sm-6 teams">
+            <Fade up>
+              <h3 className="font-weight-bold">Web Head</h3>
+            </Fade>
+            <img
+              src="https://i.ibb.co/ZVBJQFm/Rajat-Deore.jpg"
+              className="img-fluid lead-img"
+              alt="Web Head"
+            />
+            <h5 className="mt-4">Rajat Deore</h5>
+            <span></span>
+            <div className="social-ico">
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-linkedin ico-link"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-github ico-github"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-instagram ico-insta"></i>
+              </a>
+            </div>
+          </div>
+          {/* Tech Head */}
+          <div className="col-lg-6 col-sm-6 teams">
+            <Fade up>
+              <h3 className="font-weight-bold">Tech Head</h3>
+            </Fade>
+            <img
+              src="https://i.ibb.co/X5j3BDy/Mukesh-Tandale.jpg"
+              className="img-fluid lead-img"
+              alt="Tech Head"
+            />
 
+            <h5 className="mt-4">Mukesh Tandale</h5>
+            <span></span>
+            <div className="social-ico">
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-linkedin ico-link"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-github ico-github"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-instagram ico-insta"></i>
+              </a>
+            </div>
+          </div>
+          {/* UI Head */}
+          <div className="col-lg-6 col-sm-6 teams">
+            <Fade up>
+              <h3 className="font-weight-bold">FrontEnd Head</h3>
+            </Fade>
+            <img
+              src="https://i.ibb.co/fMvQsJR/Vedant-Mule.jpg"
+              className="img-fluid lead-img"
+              alt="FrontEnd Head"
+            />
+
+            <h5 className="mt-4">Vedant Mule</h5>
+            <span></span>
+            <div className="social-ico">
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-linkedin ico-link"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-github ico-github"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-instagram ico-insta"></i>
+              </a>
+            </div>
+          </div>
+          {/* Backend Head */}
+          <div className="col-lg-6 col-sm-6 teams">
+            <Fade up>
+              <h3 className="font-weight-bold">Backend Head</h3>
+            </Fade>
+            <img
+              src="https://i.ibb.co/SfvYf2w/Abhishek-Gawade.jpg"
+              className="img-fluid lead-img"
+              alt="Backend Head"
+            />
+
+            <h5 className="mt-4">Abhishek Gawade</h5>
+            <span></span>
+            <div className="social-ico">
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-linkedin ico-link"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-github ico-github"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-instagram ico-insta"></i>
+              </a>
+            </div>
+          </div>
+          {/* Cloud Head*/}
+          <div className="col-lg-6 col-sm-6 teams">
+            <Fade up>
+              <h3 className="font-weight-bold">Cloud Head</h3>
+            </Fade>
+            <img
+              src="https://i.ibb.co/jgHN5fw/Sahil-shahane.png"
+              className="img-fluid lead-img"
+              alt="Cloud Head"
+            />
+
+            <h5 className="mt-4">Sahil Shahane</h5>
+            <span></span>
+            <div className="social-ico">
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-linkedin ico-link"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-github ico-github"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-instagram ico-insta"></i>
+              </a>
+            </div>
+          </div>
+          {/* ML Head */}
+          <div className="col-lg-6 col-sm-6 teams">
+            <Fade up>
+              <h3 className="font-weight-bold">ML Head</h3>
+            </Fade>
+            <img
+              src="https://i.ibb.co/TKSZqPM/Manvi-Gawande.jpg"
+              className="img-fluid lead-img"
+              alt="ML Head"
+            />
+            <h5 className="mt-4">Manvi Gawande</h5>
+            <span></span>
+            <div className="social-ico">
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-linkedin ico-link"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-github ico-github"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-instagram ico-insta"></i>
+              </a>
+            </div>
+          </div>
+          {/* Flutter Head */}
+          <div className="col-lg-6 col-sm-6 teams">
+            <Fade up>
+              <h3 className="font-weight-bold">Flutter Head</h3>
+            </Fade>
+            <img
+              src="https://i.ibb.co/vXC09bg/Jay-Firke.jpg"
+              className="img-fluid lead-img"
+              alt="Flutter Head"
+            />
+
+            <h5 className="mt-4">Jay Firke</h5>
+            <span></span>
+
+            <div className="social-ico">
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-linkedin ico-link"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-github ico-github"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-instagram ico-insta"></i>
+              </a>
+            </div>
+          </div>
+          {/* Android Head */}
+          <div className="col-lg-6 col-sm-6 teams">
+            <Fade up>
+              <h3 className="font-weight-bold">Android Head</h3>
+            </Fade>
+            <img
+              src="https://i.ibb.co/sWf5QdM/Pritam-Patil.jpg"
+              className="img-fluid lead-img"
+              alt="Web Head"
+            />
+
+            <h5 className="mt-4">Pritam Patil</h5>
+            <span></span>
+            <div className="social-ico">
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-linkedin ico-link"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-github ico-github"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-instagram ico-insta"></i>
+              </a>
+            </div>
+          </div>
+          {/* BlockChain Head */}
+          <div className="col-lg-6 col-sm-6 teams">
+            <Fade up>
+              <h3 className="font-weight-bold">Blockchain Head</h3>
+            </Fade>
+
+            <img
+              src="https://i.ibb.co/0Cj97hk/Neeraj-Kulkarni.png"
+              className="img-fluid lead-img"
+              alt="Web Head"
+            />
+            <h5 className="mt-4">Neeraj Kulkarni</h5>
+            <span></span>
+            <div className="social-ico">
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-linkedin ico-link"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-github ico-github"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-instagram ico-insta"></i>
+              </a>
+            </div>
+          </div>
+          {/* CP Head */}
+          <div className="col-lg-6 col-sm-6 teams">
+            <Fade up>
+              <h3 className="font-weight-bold">CP Head</h3>
+            </Fade>
+            <img
+              src="https://i.ibb.co/wBF2qcs/Dhiraj-Patil.jpg"
+              className="img-fluid lead-img"
+              alt="Web Head"
+            />
+            <h5 className="mt-4">Dhiraj Patil</h5>
+            <span></span>
+            <div className="social-ico">
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-linkedin ico-link"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-github ico-github"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-instagram ico-insta"></i>
+              </a>
+            </div>
+          </div>
+          {/* Management head */}
+          <div className="col-lg-6 col-sm-6 teams">
+            <Fade up>
+              <h3 className="font-weight-bold">Management Head</h3>
+            </Fade>
+
+            <img
+              src="https://i.ibb.co/hV4LPZb/Abhishek-Jadhav.jpg"
+              className="img-fluid lead-img"
+              alt="Web Head"
+            />
+            <h5 className="mt-4">Abhishek Jadhav</h5>
+            <span></span>
+            <div className="social-ico">
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-linkedin ico-link"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-github ico-github"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-instagram ico-insta"></i>
+              </a>
+            </div>
+          </div>
+          {/* Marketing Head */}
+          <div className="col-lg-6 col-sm-6 teams">
+            <Fade up>
+              <h3 className="font-weight-bold">Marketing Head</h3>
+            </Fade>
+            <img
+              src="https://i.ibb.co/55Q2htY/Preeti-Hankare.webp"
+              className="img-fluid lead-img"
+              alt="Web Head"
+            />
+
+            <h5 className="mt-4">Preeti Hankare</h5>
+            <span></span>
+            <div className="social-ico">
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-linkedin ico-link"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-github ico-github"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-instagram ico-insta"></i>
+              </a>
+            </div>
+          </div>
+          {/* Design Head  */}
+          <div className="col-lg-6 col-sm-6 teams">
+            <Fade up>
+              <h3 className="font-weight-bold">Design Head</h3>
+            </Fade>
+            <img
+              src="https://i.ibb.co/MnNX2Yy/Aditi-Hambarde.jpg"
+              className="img-fluid lead-img"
+              alt="Web Head"
+            />
+            <h5 className="mt-4">Aditi Hambarde</h5>
+            <span></span>
+            <div className="social-ico">
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-linkedin ico-link"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-github ico-github"></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="#0">
+                <i className="fa fa-instagram ico-insta"></i>
+              </a>
+            </div>
+          </div>
+          {/* {teams.web} */}
+        </div>
+        {/* 
         <div id="cloud_team" className="row mt-lg-5">
           <Fade up>
             <h3 className="mt-5 mb-4 font-weight-bold">Cloud Team</h3>
@@ -321,9 +657,9 @@ const Team = () => {
               </div>
             </div>
           </Fade>
-        </div>
+        </div> */}
 
-        <div id="dsa_cp_team" className="row mt-lg-5">
+        {/* <div id="dsa_cp_team" className="row mt-lg-5">
           <Fade up>
             <h3 className="mt-5 mb-4 font-weight-bold">DSA/CP Team</h3>
           </Fade>
@@ -390,8 +726,8 @@ const Team = () => {
               </div>
             </div>
           </Fade>
-        </div>
-
+        </div> */}
+        {/* 
         <div id="ml_team" className="row mt-lg-5">
           <Fade up>
             <h3 className="mt-5 mb-4 font-weight-bold">
@@ -399,21 +735,21 @@ const Team = () => {
             </h3>
           </Fade>
           {teams.ml}
-        </div>
+        </div> */}
 
-        <div id="android_team" className="row mt-lg-5">
+        {/* <div id="android_team" className="row mt-lg-5">
           <Fade up>
             <h3 className="mt-5 mb-4 font-weight-bold">Android Team</h3>
           </Fade>
           {teams.android}
-        </div>
-
+        </div> */}
+        {/* 
         <div id="management_team" className="row mt-lg-5">
           <Fade up>
             <h3 className="mt-5 mb-4 font-weight-bold">Management Team</h3>
           </Fade>
           {teams.management}
-        </div>
+        </div> */}
       </div>
     </>
   );
