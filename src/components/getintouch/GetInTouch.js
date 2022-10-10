@@ -125,7 +125,7 @@ const Contact = () => {
               <div className="contact-tag px-lg-5 contact_tag">
                 <Typewriter
                   options={{
-                    strings: ["Want to ask something?"],
+                    strings: ["Wish to Ask ?"],
                     autoStart: true,
                     loop: true,
                     pauseFor: 5000,
@@ -133,7 +133,7 @@ const Contact = () => {
                 />
 
                 <div className="h5">
-                  Feel free to ask your doubts or to give us feedback
+                  Feel free to ask your doubts or to respond with feedback
                 </div>
               </div>
             )}

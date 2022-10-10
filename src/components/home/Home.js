@@ -297,10 +297,6 @@ const Home = () => {
                 </span>
               </div>
             </Fade>
-          </div>
-
-          <div className="row stacks pl-lg-5 pr-lg-5 ml-lg-5 mr-lg-5">
-
             <Fade up>
               <div className="col-lg-4 col-sm-12 stack-name">
                 <span className="-button cloud-domain">Cloud Computing</span>
@@ -422,6 +418,7 @@ const Home = () => {
             <div className="col-lg-6 offset-lg-1 pl-lg-4">
               <Fade left>
                 <div className="all-divs">
+
                   <h1 className="text-center home-headings">Blogs</h1>
 
                   <p className="home_text">

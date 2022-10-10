@@ -5,6 +5,7 @@ import "./Community.css";
 import { Row, Col } from "react-bootstrap";
 
 import Logo from "../../images/community/logo.jpg";
+import Vision from "../../images/community/vision_gdsc.jpg";
 import about_img from "../../images/community/about.gif";
 import about_us from "../../images/community/about-us.jpeg";
 
@@ -125,7 +126,7 @@ const Community = () => {
           className="msg-img cursor-pointer text-center"
           style={{ margin: "3em auto" }}
         >
-          <img src={about_us} alt="about_us" className="about_us" />
+          <img src={Vision} alt="about_us" className="about_us" />
         </div>
       </Fade>
 
