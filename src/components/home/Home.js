@@ -98,9 +98,7 @@ const Home = () => {
       <Fade up>
         <h5 className="text-center">{noUpcomingEvents}</h5>
       </Fade>
-    ) : (
-      upcoming_events_map
-    )
+    ) : ( upcoming_events_map)
   );
 
   const responsive = (media) => {
