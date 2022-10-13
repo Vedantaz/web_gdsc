@@ -6,7 +6,7 @@ import { Row, Col } from "react-bootstrap";
 
 import Logo from "../../images/community/logo.jpg";
 import Vision from "../../images/community/vision_gdsc.jpg";
-import about_img from "../../images/community/about.gif";
+import about_img from "../../images/community/about.webp";
 import about_us from "../../images/community/about-us.jpeg";
 
 import Fade from "react-reveal/Fade";

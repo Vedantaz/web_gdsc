@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 
 import "./Team.css";
 
-import Team_Svg from "../../images/team/Team.gif";
+import Team_Svg from "../../images/team/Team.webp";
 import Gdsc_All from "../../images/gdsc-all.png";
 import Abhay from "../../images/team/Abhay Rajput.jpg"
 import Rajat from "../../images/team/Rajat_Deore.jpg"

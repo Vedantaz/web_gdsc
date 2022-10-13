@@ -80,7 +80,7 @@ const Blog = () => {
   let technicalBlogsMap = technicalBlogs.map((blog) => (
     <BlogCard key={blog.id} blog={blog} />
   ));
-  
+
   const [blogs, setBlogs] = useState(technicalBlogsMap);
 
   const technicalClick = () => {
@@ -127,7 +127,7 @@ const Blog = () => {
         "web",
         "blockchain",
         "cloud",
-        "dsa/cp",
+        "cp",
         "android",
         "ai/ml",
         "general",
@@ -145,7 +145,7 @@ const Blog = () => {
         const leads = [Leads[0], Leads[domainIndex + 1]];
 
         leads.forEach((lead) => {
-          lead["from_name"] = "GDSC, AISSMS IOIT";
+          lead["from_name"] = "GDSC, PCCOER, RAVET";
           lead["name"] = values.name;
           lead["email"] = values.email;
           lead["title"] = values.title;
@@ -207,7 +207,7 @@ const Blog = () => {
         />
         <meta
           name="keywords"
-          content="gdsc blogs, gdsc aissms blogs, gdsc aissms ioit blogs, dsc, dsc aissms blogs, dsc aissms ioit blogs, gdsc ioit blogs, dsc ioit blogs, ioit dsc blogs, aissms dsc blogs, aissms ioit dsc blogs, aissms ioit gdsc blogs, gdsc-aissms-ioit blogs, gdsc-ioit blogs, dsc-aissms-ioit blogs, dsc-ioit blogs"
+          content="gdsc blogs, gdsc pccoer blogs, gdsc pccoer blogs, dsc, dsc pccoer blogs, dsc pccoer blogs, gdsc blogs, dsc blogs, dsc blogs, pccoer dsc blogs, pccoer dsc blogs, pccoer gdsc blogs, gdsc-pccoer blogs, gdsc blogs, dsc-pccoer blogs, dsc blogs"
         />
       </Helmet>
       <div

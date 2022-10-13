@@ -10,7 +10,10 @@ import "slick-carousel/slick/slick-theme.css";
 
 import Card from "./Card";
 
-import Home_Svg from "../../images/home/Home.gif";
+import home from "../../images/home/home_updated.jpg";
+import community from "../../images/home/community_updated.jpg";
+import blogs from "../../images/home/blogs.jpg";
+import notified from "../../images/home/notified.webp";
 
 // import Bubbles from "../bubbles/Bubbles";
 
@@ -143,7 +146,7 @@ const Home = () => {
             data-aos-anchor=".example-selector"
             data-aos-anchor-placement="top-center"
           >
-            <img className="cursor-pointer" src={Home_Svg} alt="Home_Svg" />
+            <img className="cursor-pointer" src={home} alt="home_icon" />
           </div>
           <div
             className="column"
@@ -376,10 +379,10 @@ const Home = () => {
             <div className="col-lg-5 offset-lg-1">
               <Fade left>
                 <div className="msg-img-home cursor-pointer text-center tab-view-css">
-                  <img
-                    src="https://res.cloudinary.com/dqf1zqrr9/image/upload/v1645258208/blogs/WhatsApp_Image_2022-02-19_at_1.19.27_PM_2_ko2uxt.jpg"
-                    alt="About_Us"
-                    className="about_us"
+                  <img style={{ borderRadius: "50%" }}
+                    src={community}
+                    alt="community"
+                    className="community"
                   />
                 </div>
               </Fade>
@@ -447,7 +450,7 @@ const Home = () => {
               <Fade right>
                 <div className="msg-img-home cursor-pointer tab-view-css">
                   <img
-                    src="https://i.ibb.co/wrg6y1s/Home-Blog.jpg"
+                    src={blogs}
                     alt="Blogs"
                     className="about_us"
                   />
@@ -550,7 +553,7 @@ const Home = () => {
               <Fade left>
                 <div className="msg-img-home cursor-pointer text-center tab-view-css">
                   <img
-                    src="https://res.cloudinary.com/dqf1zqrr9/image/upload/v1645258203/blogs/WhatsApp_Image_2022-02-19_at_1.19.28_PM_drgj4s.jpg"
+                    src={notified}
                     alt="Stay Updated"
                     className="about_us"
                   />
