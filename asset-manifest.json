@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/web-gdsc/static/css/main.b48aee50.css",
-    "main.js": "/web-gdsc/static/js/main.44fd0741.js",
-    "static/js/787.c0d5fc75.chunk.js": "/web-gdsc/static/js/787.c0d5fc75.chunk.js",
+    "main.js": "/web-gdsc/static/js/main.34f06c4d.js",
+    "static/js/787.d015b376.chunk.js": "/web-gdsc/static/js/787.d015b376.chunk.js",
     "static/media/Aditi Hambarde.jpg": "/web-gdsc/static/media/Aditi Hambarde.10fa2b3db6d67f2c1993.jpg",
     "static/media/Jay Firke.jpg": "/web-gdsc/static/media/Jay Firke.2bb80bb098a84a52e59f.jpg",
     "static/media/Dhiraj Patil.jpg": "/web-gdsc/static/media/Dhiraj Patil.6f3c1862bf9d0f465fc5.jpg",
@@ -41,11 +41,11 @@
     "static/media/slick.ttf": "/web-gdsc/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/web-gdsc/static/media/slick.295183786cd8a1389865.woff",
     "main.b48aee50.css.map": "/web-gdsc/static/css/main.b48aee50.css.map",
-    "main.44fd0741.js.map": "/web-gdsc/static/js/main.44fd0741.js.map",
-    "787.c0d5fc75.chunk.js.map": "/web-gdsc/static/js/787.c0d5fc75.chunk.js.map"
+    "main.34f06c4d.js.map": "/web-gdsc/static/js/main.34f06c4d.js.map",
+    "787.d015b376.chunk.js.map": "/web-gdsc/static/js/787.d015b376.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b48aee50.css",
-    "static/js/main.44fd0741.js"
+    "static/js/main.34f06c4d.js"
   ]
 }
