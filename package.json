@@ -2,7 +2,7 @@
   "name": "gdsc-pccoer-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Vedantaz.github.io/web-gdsc",
+  "homepage": "http://Vedantaz.github.io/web_gdsc",
   "dependencies": {
     "-": "^0.0.1",
     "@emailjs/browser": "^3.4.0",
