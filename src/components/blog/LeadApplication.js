@@ -15,7 +15,7 @@ const LeadApplication = () => {
         <meta name="title" content="Blog Details - GDSC" />
         <meta
           name="description"
-          content="Hi everyone! I’m Prarthana Chandak, the founder and the Lead at Google Developer Student Clubs, AISSMS IOIT. I started GDSC at my campus for the very first time and this blog is a complete guide on the entire process that I followed and you can follow while applying. Index - What is a GDSC? Benefits of being a GDSC Lead My motivation to run a community Criteria to become a GDSC Lead"
+          content="Hi everyone! I’m Abhay Rajput, the founder and the Lead at Google Developer Student Clubs, Pccoer. I started GDSC at my campus for the very first time and this blog is a complete guide on the entire process that I followed and you can follow while applying. Index - What is a GDSC? Benefits of being a GDSC Lead My motivation to run a community Criteria to become a GDSC Lead"
         />
         <meta
           name="keywords"

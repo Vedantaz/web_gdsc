@@ -1,9 +1,10 @@
 {
-  "name": "gdsc-aissmsioit-web",
+  "name": "gdsc-pccoer-web",
   "version": "0.1.0",
   "private": true,
   "homepage": "http://vedantaz.github.io/web-gdsc",
   "dependencies": {
+    "-": "^0.0.1",
     "@emailjs/browser": "^3.4.0",
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
@@ -35,6 +36,7 @@
     "react-router-sitemap": "^1.2.0",
     "react-scripts": "^5.0.0",
     "react-slick": "^0.28.1",
+    "save-dev": "^0.0.1-security",
     "slick-carousel": "^1.8.1",
     "theme-ui": "^0.12.0",
     "typewriter-effect": "^2.18.2",
