@@ -278,13 +278,13 @@ const Team = () => {
             <h5 className="mt-4">Rajat Deore</h5>
             <span></span>
             <div className="social-ico">
-              <a target="_blank" rel="noreferrer" href="#0">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/rajat-deore-072260220/">
                 <i className="fa fa-linkedin ico-link"></i>
               </a>
-              <a target="_blank" rel="noreferrer" href="#0">
+              <a target="_blank" rel="noreferrer" href="https://github.com/RajatDeore7">
                 <i className="fa fa-github ico-github"></i>
               </a>
-              <a target="_blank" rel="noreferrer" href="#0">
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/rajat.72002/">
                 <i className="fa fa-instagram ico-insta"></i>
               </a>
             </div>
@@ -328,13 +328,13 @@ const Team = () => {
             <h5 className="mt-4">Vedant Mule</h5>
             <span></span>
             <div className="social-ico">
-              <a target="_blank" rel="noreferrer" href="#0">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/vedant-mule-210854219/">
                 <i className="fa fa-linkedin ico-link"></i>
               </a>
-              <a target="_blank" rel="noreferrer" href="#0">
+              <a target="_blank" rel="noreferrer" href="https://github.com/Vedantaz/">
                 <i className="fa fa-github ico-github"></i>
               </a>
-              <a target="_blank" rel="noreferrer" href="#0">
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/muley635/">
                 <i className="fa fa-instagram ico-insta"></i>
               </a>
             </div>
@@ -428,13 +428,13 @@ const Team = () => {
             <span></span>
 
             <div className="social-ico">
-              <a target="_blank" rel="noreferrer" href="#0">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jay-firke-0aa416121">
                 <i className="fa fa-linkedin ico-link"></i>
               </a>
-              <a target="_blank" rel="noreferrer" href="#0">
+              <a target="_blank" rel="noreferrer" href="https://github.com/jayfirke">
                 <i className="fa fa-github ico-github"></i>
               </a>
-              <a target="_blank" rel="noreferrer" href="#0">
+              <a target="_blank" rel="noreferrer" href="https://instagram.com/jayfirke">
                 <i className="fa fa-instagram ico-insta"></i>
               </a>
             </div>
@@ -453,13 +453,13 @@ const Team = () => {
             <h5 className="mt-4">Pritam Patil</h5>
             <span></span>
             <div className="social-ico">
-              <a target="_blank" rel="noreferrer" href="#0">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/pritam-patil-621925219">
                 <i className="fa fa-linkedin ico-link"></i>
               </a>
-              <a target="_blank" rel="noreferrer" href="#0">
+              <a target="_blank" rel="noreferrer" href="https://github.com/Pritam1222">
                 <i className="fa fa-github ico-github"></i>
               </a>
-              <a target="_blank" rel="noreferrer" href="#0">
+              <a target="_blank" rel="noreferrer" href="https://instagram.com/pp_12.22?igshid=YmMyMTA2M2Y=">
                 <i className="fa fa-instagram ico-insta"></i>
               </a>
             </div>
