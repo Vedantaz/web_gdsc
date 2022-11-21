@@ -6,6 +6,7 @@ import "./Team.css";
 import Team_Svg from "../../images/team/Team.webp";
 import Gdsc_All from "../../images/gdsc-all.png";
 import Abhay from "../../images/team/Abhay Rajput.jpg"
+import mam from "../../images/team/sonali_mam_photo.jpg"
 import Rajat from "../../images/team/Rajat_Deore.jpg"
 import Mukesh from "../../images/team/Mukesh Tandale.jpg"
 import Vedant from "../../images/team/Vedant Mule.jpg"
@@ -241,11 +242,11 @@ const Team = () => {
                 <h3 className="font-weight-bold">Faculty Advisor</h3>
               </Fade>
               <img
-                src="https://res.cloudinary.com/dqf1zqrr9/image/upload/v1643105362/users/shvypywj5d43cemyomyo.jpg"
+                src={mam}
                 className="img-fluid lead-img"
                 alt="Faculty_Advisor"
               />
-              <h5 className="mt-4">Dr. K. S. Wagh Sir</h5>
+              <h5 className="mt-4">Mrs. Sonali Mam</h5>
               <span></span>
               <div className="social-ico">
                 <a target="_blank" rel="noreferrer" href="#0">
