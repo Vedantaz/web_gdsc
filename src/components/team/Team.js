@@ -249,15 +249,15 @@ const Team = () => {
               <h5 className="mt-4">Mrs. Sonali Mam</h5>
               <span></span>
               <div className="social-ico">
-                <a target="_blank" rel="noreferrer" href="#0">
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sonali-lunawat/">
                   <i className="fa fa-linkedin ico-link"></i>
                 </a>
-                <a target="_blank" rel="noreferrer" href="#0">
-                  <i className="fa fa-github ico-github"></i>
+               <img src="../../images/blog_icon.jpg" alt="" />
+                <a target="_blank" rel="noreferrer" href="https://sonallunawat4u.wordpress.com/">
+                <i className="fa fa-link ico-link"></i>
                 </a>
-                <a target="_blank" rel="noreferrer" href="#0">
-                  <i className="fa fa-instagram ico-insta"></i>
-                </a>
+
+            
               </div>
             </div>
           </div>
